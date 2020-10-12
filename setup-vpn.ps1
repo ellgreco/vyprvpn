@@ -30,7 +30,7 @@ $servers | ForEach-Object {
         ServerAddress = $_.Hostname
         EncryptionLevel = "Maximum" 
         RememberCredential = $true 
-        SplitTunneling = $true 
+        SplitTunneling = $false 
         AuthenticationMethod = "Eap" 
         Force = $true 
         AllUserConnection = $false
